@@ -1,0 +1,157 @@
+   1: # Boblesortering
+   2: # (Den enkleste men akk så ineffektive sorteringsmetoden)
+   3: 
+   4: def boblesorter (a):
+Scanner: def token on line 4
+Scanner: name token on line 4: boblesorter
+Scanner: ( token on line 4
+Scanner: name token on line 4: a
+Scanner: ) token on line 4
+Scanner: : token on line 4
+Scanner: NEWLINE token on line 4
+   5:     global ombyttinger
+Scanner: INDENT token on line 5
+Scanner: global token on line 5
+Scanner: name token on line 5: ombyttinger
+Scanner: NEWLINE token on line 5
+   6:     while True:
+Scanner: while token on line 6
+Scanner: True token on line 6
+Scanner: : token on line 6
+Scanner: NEWLINE token on line 6
+   7:         endret = False
+Scanner: INDENT token on line 7
+Scanner: name token on line 7: endret
+Scanner: = token on line 7
+Scanner: False token on line 7
+Scanner: NEWLINE token on line 7
+   8:         for i in range(1,len(a)):
+Scanner: for token on line 8
+Scanner: name token on line 8: i
+Scanner: in token on line 8
+Scanner: name token on line 8: range
+Scanner: ( token on line 8
+Scanner: integer literal token on line 8: 1
+Scanner: , token on line 8
+Scanner: name token on line 8: len
+Scanner: ( token on line 8
+Scanner: name token on line 8: a
+Scanner: ) token on line 8
+Scanner: ) token on line 8
+Scanner: : token on line 8
+Scanner: NEWLINE token on line 8
+   9:             if a[i-1] > a[i]:
+Scanner: INDENT token on line 9
+Scanner: if token on line 9
+Scanner: name token on line 9: a
+Scanner: [ token on line 9
+Scanner: name token on line 9: i
+Scanner: - token on line 9
+Scanner: integer literal token on line 9: 1
+Scanner: ] token on line 9
+Scanner: > token on line 9
+Scanner: name token on line 9: a
+Scanner: [ token on line 9
+Scanner: name token on line 9: i
+Scanner: ] token on line 9
+Scanner: : token on line 9
+Scanner: NEWLINE token on line 9
+  10:                 t = a[i-1];  a[i-1] = a[i];  a[i] = t
+Scanner: INDENT token on line 10
+Scanner: name token on line 10: t
+Scanner: = token on line 10
+Scanner: name token on line 10: a
+Scanner: [ token on line 10
+Scanner: name token on line 10: i
+Scanner: - token on line 10
+Scanner: integer literal token on line 10: 1
+Scanner: ] token on line 10
+Scanner: ; token on line 10
+Scanner: name token on line 10: a
+Scanner: [ token on line 10
+Scanner: name token on line 10: i
+Scanner: - token on line 10
+Scanner: integer literal token on line 10: 1
+Scanner: ] token on line 10
+Scanner: = token on line 10
+Scanner: name token on line 10: a
+Scanner: [ token on line 10
+Scanner: name token on line 10: i
+Scanner: ] token on line 10
+Scanner: ; token on line 10
+Scanner: name token on line 10: a
+Scanner: [ token on line 10
+Scanner: name token on line 10: i
+Scanner: ] token on line 10
+Scanner: = token on line 10
+Scanner: name token on line 10: t
+Scanner: NEWLINE token on line 10
+  11:                 ombyttinger = ombyttinger + 1
+Scanner: name token on line 11: ombyttinger
+Scanner: = token on line 11
+Scanner: name token on line 11: ombyttinger
+Scanner: + token on line 11
+Scanner: integer literal token on line 11: 1
+Scanner: NEWLINE token on line 11
+  12:                 endret = True
+Scanner: name token on line 12: endret
+Scanner: = token on line 12
+Scanner: True token on line 12
+Scanner: NEWLINE token on line 12
+  13:         if not endret: return 0
+Scanner: DEDENT token on line 13
+Scanner: DEDENT token on line 13
+Scanner: if token on line 13
+Scanner: not token on line 13
+Scanner: name token on line 13: endret
+Scanner: : token on line 13
+Scanner: return token on line 13
+Scanner: integer literal token on line 13: 0
+Scanner: NEWLINE token on line 13
+  14: 
+  15: data = [ 3, 17, -3, 0, 3, 1, 12 ]
+Scanner: DEDENT token on line 15
+Scanner: DEDENT token on line 15
+Scanner: name token on line 15: data
+Scanner: = token on line 15
+Scanner: [ token on line 15
+Scanner: integer literal token on line 15: 3
+Scanner: , token on line 15
+Scanner: integer literal token on line 15: 17
+Scanner: , token on line 15
+Scanner: - token on line 15
+Scanner: integer literal token on line 15: 3
+Scanner: , token on line 15
+Scanner: integer literal token on line 15: 0
+Scanner: , token on line 15
+Scanner: integer literal token on line 15: 3
+Scanner: , token on line 15
+Scanner: integer literal token on line 15: 1
+Scanner: , token on line 15
+Scanner: integer literal token on line 15: 12
+Scanner: ] token on line 15
+Scanner: NEWLINE token on line 15
+  16: ombyttinger = 0
+Scanner: name token on line 16: ombyttinger
+Scanner: = token on line 16
+Scanner: integer literal token on line 16: 0
+Scanner: NEWLINE token on line 16
+  17: boblesorter(data)
+Scanner: name token on line 17: boblesorter
+Scanner: ( token on line 17
+Scanner: name token on line 17: data
+Scanner: ) token on line 17
+Scanner: NEWLINE token on line 17
+  18: print("Resultatet etter", ombyttinger, "ombyttinger er", data)
+Scanner: name token on line 18: print
+Scanner: ( token on line 18
+Scanner: string literal token on line 18: "Resultatet etter"
+Scanner: , token on line 18
+Scanner: name token on line 18: ombyttinger
+Scanner: , token on line 18
+Scanner: string literal token on line 18: "ombyttinger er"
+Scanner: , token on line 18
+Scanner: name token on line 18: data
+Scanner: ) token on line 18
+Scanner: NEWLINE token on line 18
+Scanner: E-o-f token on line 18

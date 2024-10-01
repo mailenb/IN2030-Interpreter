@@ -1,0 +1,3 @@
+Trace line 3: navn = 'Dag'
+Trace line 4: Call function print with params ['Hei,', 'Dag']
+Trace line 4: Expression statement produced None

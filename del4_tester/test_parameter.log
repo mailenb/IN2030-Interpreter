@@ -1,0 +1,30 @@
+Trace line 1: def f
+Trace line 5: Call function f with params [3]
+Trace line 2: a = 4
+Trace line 3: return 4
+Trace line 5: Expression statement produced 4
+Trace line 5: b = 4
+Trace line 6: Call function print with params [4]
+Trace line 6: Expression statement produced None
+Trace line 8: Call function print with params [1]
+Trace line 8: Expression statement produced None
+Trace line 10: l = ['hei', 3]
+Trace line 11: l[1] = 'yooo'
+Trace line 12: Call function print with params [['hei', 'yooo']]
+Trace line 12: Expression statement produced None
+Trace line 13: Call function print with params ['yooo']
+Trace line 13: Expression statement produced None
+Trace line 15: Call function range with params [0, 3]
+Trace line 15: Expression statement produced [0, 1, 2]
+Trace line 15: a = [0, 1, 2]
+Trace line 16: Call function print with params [[0, 1, 2]]
+Trace line 16: Expression statement produced None
+Trace line 18: Call function str with params [['hei', 3]]
+Trace line 18: Expression statement produced "['hei', 3]"
+Trace line 18: s = "['hei', 3]"
+Trace line 19: Call function print with params ["['hei', 3]"]
+Trace line 19: Expression statement produced None
+Trace line 22: o = {'A': 'a', 'B': 3}
+Trace line 23: o['C'] = 11
+Trace line 25: Call function print with params [{'A': 'a', 'B': 3, 'C': 11}]
+Trace line 25: Expression statement produced None

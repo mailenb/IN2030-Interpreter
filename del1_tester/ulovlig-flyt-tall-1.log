@@ -1,0 +1,4 @@
+   1: # I Asp kan ikke et flyt-tall begynne eller slutte med et desimalpunktum.
+   2: 
+   3: v = 2.   # Ingenting etter desimalpunktum
+Asp scanner error on line 3: Illegal character: '.'!

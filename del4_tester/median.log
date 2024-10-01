@@ -1,0 +1,221 @@
+Trace line 4: ant_kall = 0
+Trace line 6: def min
+Trace line 11: def max
+Trace line 14: def median
+Trace line 17: def test
+Trace line 22: Call function test with params [1, 2, 3]
+Trace line 19: ant_kall = 0
+Trace line 20: Call function median with params [1, 2, 3]
+Trace line 15: Call function min with params [1, 2]
+Trace line 7: ant_kall = 1
+Trace line 8: if True alt #1: ...
+Trace line 8: return 1
+Trace line 15: Expression statement produced 1
+Trace line 15: Call function max with params [1, 2]
+Trace line 12: Call function min with params [-1, -2]
+Trace line 7: ant_kall = 2
+Trace line 8: else: ...
+Trace line 9: return -2
+Trace line 12: Expression statement produced -2
+Trace line 12: return 2
+Trace line 15: Expression statement produced 2
+Trace line 15: Call function min with params [2, 3]
+Trace line 7: ant_kall = 3
+Trace line 8: if True alt #1: ...
+Trace line 8: return 2
+Trace line 15: Expression statement produced 2
+Trace line 15: Call function max with params [1, 2]
+Trace line 12: Call function min with params [-1, -2]
+Trace line 7: ant_kall = 4
+Trace line 8: else: ...
+Trace line 9: return -2
+Trace line 12: Expression statement produced -2
+Trace line 12: return 2
+Trace line 15: Expression statement produced 2
+Trace line 15: return 2
+Trace line 20: Expression statement produced 2
+Trace line 20: Call function str with params [4]
+Trace line 20: Expression statement produced '4'
+Trace line 20: Call function print with params ['median(', 1, 2, 3, ') er', 2, '[4 kall]']
+Trace line 20: Expression statement produced None
+Trace line 22: Expression statement produced None
+Trace line 23: Call function test with params [1, 3, 2]
+Trace line 19: ant_kall = 0
+Trace line 20: Call function median with params [1, 3, 2]
+Trace line 15: Call function min with params [1, 3]
+Trace line 7: ant_kall = 1
+Trace line 8: if True alt #1: ...
+Trace line 8: return 1
+Trace line 15: Expression statement produced 1
+Trace line 15: Call function max with params [1, 3]
+Trace line 12: Call function min with params [-1, -3]
+Trace line 7: ant_kall = 2
+Trace line 8: else: ...
+Trace line 9: return -3
+Trace line 12: Expression statement produced -3
+Trace line 12: return 3
+Trace line 15: Expression statement produced 3
+Trace line 15: Call function min with params [3, 2]
+Trace line 7: ant_kall = 3
+Trace line 8: else: ...
+Trace line 9: return 2
+Trace line 15: Expression statement produced 2
+Trace line 15: Call function max with params [1, 2]
+Trace line 12: Call function min with params [-1, -2]
+Trace line 7: ant_kall = 4
+Trace line 8: else: ...
+Trace line 9: return -2
+Trace line 12: Expression statement produced -2
+Trace line 12: return 2
+Trace line 15: Expression statement produced 2
+Trace line 15: return 2
+Trace line 20: Expression statement produced 2
+Trace line 20: Call function str with params [4]
+Trace line 20: Expression statement produced '4'
+Trace line 20: Call function print with params ['median(', 1, 3, 2, ') er', 2, '[4 kall]']
+Trace line 20: Expression statement produced None
+Trace line 23: Expression statement produced None
+Trace line 24: Call function test with params [2, 1, 3]
+Trace line 19: ant_kall = 0
+Trace line 20: Call function median with params [2, 1, 3]
+Trace line 15: Call function min with params [2, 1]
+Trace line 7: ant_kall = 1
+Trace line 8: else: ...
+Trace line 9: return 1
+Trace line 15: Expression statement produced 1
+Trace line 15: Call function max with params [2, 1]
+Trace line 12: Call function min with params [-2, -1]
+Trace line 7: ant_kall = 2
+Trace line 8: if True alt #1: ...
+Trace line 8: return -2
+Trace line 12: Expression statement produced -2
+Trace line 12: return 2
+Trace line 15: Expression statement produced 2
+Trace line 15: Call function min with params [2, 3]
+Trace line 7: ant_kall = 3
+Trace line 8: if True alt #1: ...
+Trace line 8: return 2
+Trace line 15: Expression statement produced 2
+Trace line 15: Call function max with params [1, 2]
+Trace line 12: Call function min with params [-1, -2]
+Trace line 7: ant_kall = 4
+Trace line 8: else: ...
+Trace line 9: return -2
+Trace line 12: Expression statement produced -2
+Trace line 12: return 2
+Trace line 15: Expression statement produced 2
+Trace line 15: return 2
+Trace line 20: Expression statement produced 2
+Trace line 20: Call function str with params [4]
+Trace line 20: Expression statement produced '4'
+Trace line 20: Call function print with params ['median(', 2, 1, 3, ') er', 2, '[4 kall]']
+Trace line 20: Expression statement produced None
+Trace line 24: Expression statement produced None
+Trace line 25: Call function test with params [2, 3, 1]
+Trace line 19: ant_kall = 0
+Trace line 20: Call function median with params [2, 3, 1]
+Trace line 15: Call function min with params [2, 3]
+Trace line 7: ant_kall = 1
+Trace line 8: if True alt #1: ...
+Trace line 8: return 2
+Trace line 15: Expression statement produced 2
+Trace line 15: Call function max with params [2, 3]
+Trace line 12: Call function min with params [-2, -3]
+Trace line 7: ant_kall = 2
+Trace line 8: else: ...
+Trace line 9: return -3
+Trace line 12: Expression statement produced -3
+Trace line 12: return 3
+Trace line 15: Expression statement produced 3
+Trace line 15: Call function min with params [3, 1]
+Trace line 7: ant_kall = 3
+Trace line 8: else: ...
+Trace line 9: return 1
+Trace line 15: Expression statement produced 1
+Trace line 15: Call function max with params [2, 1]
+Trace line 12: Call function min with params [-2, -1]
+Trace line 7: ant_kall = 4
+Trace line 8: if True alt #1: ...
+Trace line 8: return -2
+Trace line 12: Expression statement produced -2
+Trace line 12: return 2
+Trace line 15: Expression statement produced 2
+Trace line 15: return 2
+Trace line 20: Expression statement produced 2
+Trace line 20: Call function str with params [4]
+Trace line 20: Expression statement produced '4'
+Trace line 20: Call function print with params ['median(', 2, 3, 1, ') er', 2, '[4 kall]']
+Trace line 20: Expression statement produced None
+Trace line 25: Expression statement produced None
+Trace line 26: Call function test with params [3, 1, 2]
+Trace line 19: ant_kall = 0
+Trace line 20: Call function median with params [3, 1, 2]
+Trace line 15: Call function min with params [3, 1]
+Trace line 7: ant_kall = 1
+Trace line 8: else: ...
+Trace line 9: return 1
+Trace line 15: Expression statement produced 1
+Trace line 15: Call function max with params [3, 1]
+Trace line 12: Call function min with params [-3, -1]
+Trace line 7: ant_kall = 2
+Trace line 8: if True alt #1: ...
+Trace line 8: return -3
+Trace line 12: Expression statement produced -3
+Trace line 12: return 3
+Trace line 15: Expression statement produced 3
+Trace line 15: Call function min with params [3, 2]
+Trace line 7: ant_kall = 3
+Trace line 8: else: ...
+Trace line 9: return 2
+Trace line 15: Expression statement produced 2
+Trace line 15: Call function max with params [1, 2]
+Trace line 12: Call function min with params [-1, -2]
+Trace line 7: ant_kall = 4
+Trace line 8: else: ...
+Trace line 9: return -2
+Trace line 12: Expression statement produced -2
+Trace line 12: return 2
+Trace line 15: Expression statement produced 2
+Trace line 15: return 2
+Trace line 20: Expression statement produced 2
+Trace line 20: Call function str with params [4]
+Trace line 20: Expression statement produced '4'
+Trace line 20: Call function print with params ['median(', 3, 1, 2, ') er', 2, '[4 kall]']
+Trace line 20: Expression statement produced None
+Trace line 26: Expression statement produced None
+Trace line 27: Call function test with params [3, 2, 1]
+Trace line 19: ant_kall = 0
+Trace line 20: Call function median with params [3, 2, 1]
+Trace line 15: Call function min with params [3, 2]
+Trace line 7: ant_kall = 1
+Trace line 8: else: ...
+Trace line 9: return 2
+Trace line 15: Expression statement produced 2
+Trace line 15: Call function max with params [3, 2]
+Trace line 12: Call function min with params [-3, -2]
+Trace line 7: ant_kall = 2
+Trace line 8: if True alt #1: ...
+Trace line 8: return -3
+Trace line 12: Expression statement produced -3
+Trace line 12: return 3
+Trace line 15: Expression statement produced 3
+Trace line 15: Call function min with params [3, 1]
+Trace line 7: ant_kall = 3
+Trace line 8: else: ...
+Trace line 9: return 1
+Trace line 15: Expression statement produced 1
+Trace line 15: Call function max with params [2, 1]
+Trace line 12: Call function min with params [-2, -1]
+Trace line 7: ant_kall = 4
+Trace line 8: if True alt #1: ...
+Trace line 8: return -2
+Trace line 12: Expression statement produced -2
+Trace line 12: return 2
+Trace line 15: Expression statement produced 2
+Trace line 15: return 2
+Trace line 20: Expression statement produced 2
+Trace line 20: Call function str with params [4]
+Trace line 20: Expression statement produced '4'
+Trace line 20: Call function print with params ['median(', 3, 2, 1, ') er', 2, '[4 kall]']
+Trace line 20: Expression statement produced None
+Trace line 27: Expression statement produced None

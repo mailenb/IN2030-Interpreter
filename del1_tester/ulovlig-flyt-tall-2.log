@@ -1,0 +1,9 @@
+   1: # I Asp kan ikke et flyt-tall begynne eller slutte med et desimalpunktum.
+   2: 
+   3: v = 2.0     # OK
+Scanner: name token on line 3: v
+Scanner: = token on line 3
+Scanner: float literal token on line 3: 2.0
+Scanner: NEWLINE token on line 3
+   4: v = v + .5  # Ingenting foran desimalpunktum
+Asp scanner error on line 4: Illegal character: '.'!

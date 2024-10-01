@@ -1,0 +1,487 @@
+   1: # Program som ber brukeren oppgi en dato og 
+   2: # skriver ut hvilken ukedag den faller på.
+   3: 
+   4: ukedag = ["man", "tirs", "ons", "tors", "fre", "lør", "søn"]
+Scanner: name token on line 4: ukedag
+Scanner: = token on line 4
+Scanner: [ token on line 4
+Scanner: string literal token on line 4: "man"
+Scanner: , token on line 4
+Scanner: string literal token on line 4: "tirs"
+Scanner: , token on line 4
+Scanner: string literal token on line 4: "ons"
+Scanner: , token on line 4
+Scanner: string literal token on line 4: "tors"
+Scanner: , token on line 4
+Scanner: string literal token on line 4: "fre"
+Scanner: , token on line 4
+Scanner: string literal token on line 4: "lør"
+Scanner: , token on line 4
+Scanner: string literal token on line 4: "søn"
+Scanner: ] token on line 4
+Scanner: NEWLINE token on line 4
+   5: m_leng = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+Scanner: name token on line 5: m_leng
+Scanner: = token on line 5
+Scanner: [ token on line 5
+Scanner: integer literal token on line 5: 0
+Scanner: , token on line 5
+Scanner: integer literal token on line 5: 31
+Scanner: , token on line 5
+Scanner: integer literal token on line 5: 28
+Scanner: , token on line 5
+Scanner: integer literal token on line 5: 31
+Scanner: , token on line 5
+Scanner: integer literal token on line 5: 30
+Scanner: , token on line 5
+Scanner: integer literal token on line 5: 31
+Scanner: , token on line 5
+Scanner: integer literal token on line 5: 30
+Scanner: , token on line 5
+Scanner: integer literal token on line 5: 31
+Scanner: , token on line 5
+Scanner: integer literal token on line 5: 31
+Scanner: , token on line 5
+Scanner: integer literal token on line 5: 30
+Scanner: , token on line 5
+Scanner: integer literal token on line 5: 31
+Scanner: , token on line 5
+Scanner: integer literal token on line 5: 30
+Scanner: , token on line 5
+Scanner: integer literal token on line 5: 31
+Scanner: ] token on line 5
+Scanner: NEWLINE token on line 5
+   6: 
+   7: m_navn = [0]*(12+1)
+Scanner: name token on line 7: m_navn
+Scanner: = token on line 7
+Scanner: [ token on line 7
+Scanner: integer literal token on line 7: 0
+Scanner: ] token on line 7
+Scanner: * token on line 7
+Scanner: ( token on line 7
+Scanner: integer literal token on line 7: 12
+Scanner: + token on line 7
+Scanner: integer literal token on line 7: 1
+Scanner: ) token on line 7
+Scanner: NEWLINE token on line 7
+   8: m_navn[ 1] = "januar";  m_navn[ 2] = "februar";  m_navn[ 3] = "mars";
+Scanner: name token on line 8: m_navn
+Scanner: [ token on line 8
+Scanner: integer literal token on line 8: 1
+Scanner: ] token on line 8
+Scanner: = token on line 8
+Scanner: string literal token on line 8: "januar"
+Scanner: ; token on line 8
+Scanner: name token on line 8: m_navn
+Scanner: [ token on line 8
+Scanner: integer literal token on line 8: 2
+Scanner: ] token on line 8
+Scanner: = token on line 8
+Scanner: string literal token on line 8: "februar"
+Scanner: ; token on line 8
+Scanner: name token on line 8: m_navn
+Scanner: [ token on line 8
+Scanner: integer literal token on line 8: 3
+Scanner: ] token on line 8
+Scanner: = token on line 8
+Scanner: string literal token on line 8: "mars"
+Scanner: ; token on line 8
+Scanner: NEWLINE token on line 8
+   9: m_navn[ 4] = "april";   m_navn[ 5] = "mai";      m_navn[ 6] = "juni";
+Scanner: name token on line 9: m_navn
+Scanner: [ token on line 9
+Scanner: integer literal token on line 9: 4
+Scanner: ] token on line 9
+Scanner: = token on line 9
+Scanner: string literal token on line 9: "april"
+Scanner: ; token on line 9
+Scanner: name token on line 9: m_navn
+Scanner: [ token on line 9
+Scanner: integer literal token on line 9: 5
+Scanner: ] token on line 9
+Scanner: = token on line 9
+Scanner: string literal token on line 9: "mai"
+Scanner: ; token on line 9
+Scanner: name token on line 9: m_navn
+Scanner: [ token on line 9
+Scanner: integer literal token on line 9: 6
+Scanner: ] token on line 9
+Scanner: = token on line 9
+Scanner: string literal token on line 9: "juni"
+Scanner: ; token on line 9
+Scanner: NEWLINE token on line 9
+  10: m_navn[ 7] = "juli";    m_navn[ 8] = "august";   m_navn[ 9] = "september";
+Scanner: name token on line 10: m_navn
+Scanner: [ token on line 10
+Scanner: integer literal token on line 10: 7
+Scanner: ] token on line 10
+Scanner: = token on line 10
+Scanner: string literal token on line 10: "juli"
+Scanner: ; token on line 10
+Scanner: name token on line 10: m_navn
+Scanner: [ token on line 10
+Scanner: integer literal token on line 10: 8
+Scanner: ] token on line 10
+Scanner: = token on line 10
+Scanner: string literal token on line 10: "august"
+Scanner: ; token on line 10
+Scanner: name token on line 10: m_navn
+Scanner: [ token on line 10
+Scanner: integer literal token on line 10: 9
+Scanner: ] token on line 10
+Scanner: = token on line 10
+Scanner: string literal token on line 10: "september"
+Scanner: ; token on line 10
+Scanner: NEWLINE token on line 10
+  11: m_navn[10] = "oktober"; m_navn[11] = "november"; m_navn[12] = "desember";
+Scanner: name token on line 11: m_navn
+Scanner: [ token on line 11
+Scanner: integer literal token on line 11: 10
+Scanner: ] token on line 11
+Scanner: = token on line 11
+Scanner: string literal token on line 11: "oktober"
+Scanner: ; token on line 11
+Scanner: name token on line 11: m_navn
+Scanner: [ token on line 11
+Scanner: integer literal token on line 11: 11
+Scanner: ] token on line 11
+Scanner: = token on line 11
+Scanner: string literal token on line 11: "november"
+Scanner: ; token on line 11
+Scanner: name token on line 11: m_navn
+Scanner: [ token on line 11
+Scanner: integer literal token on line 11: 12
+Scanner: ] token on line 11
+Scanner: = token on line 11
+Scanner: string literal token on line 11: "desember"
+Scanner: ; token on line 11
+Scanner: NEWLINE token on line 11
+  12: 
+  13: # Gitt et månedsnavn, finn månedens nummer.
+  14: # Svar 0 om det ikke er et lovlig månedsnavn.
+  15: def finn_maaned (m_id):
+Scanner: def token on line 15
+Scanner: name token on line 15: finn_maaned
+Scanner: ( token on line 15
+Scanner: name token on line 15: m_id
+Scanner: ) token on line 15
+Scanner: : token on line 15
+Scanner: NEWLINE token on line 15
+  16:    for m_ix in range(1,len(m_navn)):
+Scanner: INDENT token on line 16
+Scanner: for token on line 16
+Scanner: name token on line 16: m_ix
+Scanner: in token on line 16
+Scanner: name token on line 16: range
+Scanner: ( token on line 16
+Scanner: integer literal token on line 16: 1
+Scanner: , token on line 16
+Scanner: name token on line 16: len
+Scanner: ( token on line 16
+Scanner: name token on line 16: m_navn
+Scanner: ) token on line 16
+Scanner: ) token on line 16
+Scanner: : token on line 16
+Scanner: NEWLINE token on line 16
+  17:       if m_navn[m_ix] == m_id: return m_ix
+Scanner: INDENT token on line 17
+Scanner: if token on line 17
+Scanner: name token on line 17: m_navn
+Scanner: [ token on line 17
+Scanner: name token on line 17: m_ix
+Scanner: ] token on line 17
+Scanner: == token on line 17
+Scanner: name token on line 17: m_id
+Scanner: : token on line 17
+Scanner: return token on line 17
+Scanner: name token on line 17: m_ix
+Scanner: NEWLINE token on line 17
+  18:    return 0
+Scanner: DEDENT token on line 18
+Scanner: return token on line 18
+Scanner: integer literal token on line 18: 0
+Scanner: NEWLINE token on line 18
+  19: 
+  20: # Les et månedsnavn; fortsett til lovlig navn.
+  21: def les_maaned ():
+Scanner: DEDENT token on line 21
+Scanner: def token on line 21
+Scanner: name token on line 21: les_maaned
+Scanner: ( token on line 21
+Scanner: ) token on line 21
+Scanner: : token on line 21
+Scanner: NEWLINE token on line 21
+  22:    while True:
+Scanner: INDENT token on line 22
+Scanner: while token on line 22
+Scanner: True token on line 22
+Scanner: : token on line 22
+Scanner: NEWLINE token on line 22
+  23:       m_id = input("Oppgi en måned: ")
+Scanner: INDENT token on line 23
+Scanner: name token on line 23: m_id
+Scanner: = token on line 23
+Scanner: name token on line 23: input
+Scanner: ( token on line 23
+Scanner: string literal token on line 23: "Oppgi en måned: "
+Scanner: ) token on line 23
+Scanner: NEWLINE token on line 23
+  24:       m_num = finn_maaned(m_id)
+Scanner: name token on line 24: m_num
+Scanner: = token on line 24
+Scanner: name token on line 24: finn_maaned
+Scanner: ( token on line 24
+Scanner: name token on line 24: m_id
+Scanner: ) token on line 24
+Scanner: NEWLINE token on line 24
+  25:       if m_num > 0: return m_num
+Scanner: if token on line 25
+Scanner: name token on line 25: m_num
+Scanner: > token on line 25
+Scanner: integer literal token on line 25: 0
+Scanner: : token on line 25
+Scanner: return token on line 25
+Scanner: name token on line 25: m_num
+Scanner: NEWLINE token on line 25
+  26:       print("Ulovlig måned!")
+Scanner: name token on line 26: print
+Scanner: ( token on line 26
+Scanner: string literal token on line 26: "Ulovlig måned!"
+Scanner: ) token on line 26
+Scanner: NEWLINE token on line 26
+  27: 
+  28: # Er angitte år et skuddår?
+  29: def er_skuddaar (aa):
+Scanner: DEDENT token on line 29
+Scanner: DEDENT token on line 29
+Scanner: def token on line 29
+Scanner: name token on line 29: er_skuddaar
+Scanner: ( token on line 29
+Scanner: name token on line 29: aa
+Scanner: ) token on line 29
+Scanner: : token on line 29
+Scanner: NEWLINE token on line 29
+  30:    return aa%4==0 and aa%100 or aa%400==0
+Scanner: INDENT token on line 30
+Scanner: return token on line 30
+Scanner: name token on line 30: aa
+Scanner: % token on line 30
+Scanner: integer literal token on line 30: 4
+Scanner: == token on line 30
+Scanner: integer literal token on line 30: 0
+Scanner: and token on line 30
+Scanner: name token on line 30: aa
+Scanner: % token on line 30
+Scanner: integer literal token on line 30: 100
+Scanner: or token on line 30
+Scanner: name token on line 30: aa
+Scanner: % token on line 30
+Scanner: integer literal token on line 30: 400
+Scanner: == token on line 30
+Scanner: integer literal token on line 30: 0
+Scanner: NEWLINE token on line 30
+  31: 
+  32: # Beregn antall dager i en gitt måned i et gitt år.
+  33: def finn_m_leng (m, aa):
+Scanner: DEDENT token on line 33
+Scanner: def token on line 33
+Scanner: name token on line 33: finn_m_leng
+Scanner: ( token on line 33
+Scanner: name token on line 33: m
+Scanner: , token on line 33
+Scanner: name token on line 33: aa
+Scanner: ) token on line 33
+Scanner: : token on line 33
+Scanner: NEWLINE token on line 33
+  34:    if m==2 and er_skuddaar(aa): return 29
+Scanner: INDENT token on line 34
+Scanner: if token on line 34
+Scanner: name token on line 34: m
+Scanner: == token on line 34
+Scanner: integer literal token on line 34: 2
+Scanner: and token on line 34
+Scanner: name token on line 34: er_skuddaar
+Scanner: ( token on line 34
+Scanner: name token on line 34: aa
+Scanner: ) token on line 34
+Scanner: : token on line 34
+Scanner: return token on line 34
+Scanner: integer literal token on line 34: 29
+Scanner: NEWLINE token on line 34
+  35:    return m_leng[m] 
+Scanner: return token on line 35
+Scanner: name token on line 35: m_leng
+Scanner: [ token on line 35
+Scanner: name token on line 35: m
+Scanner: ] token on line 35
+Scanner: NEWLINE token on line 35
+  36: 
+  37: # Beregn antall dager fra 1. januar 1900 til angitt dato:
+  38: def finn_dag_nr (aa, m, d):
+Scanner: DEDENT token on line 38
+Scanner: def token on line 38
+Scanner: name token on line 38: finn_dag_nr
+Scanner: ( token on line 38
+Scanner: name token on line 38: aa
+Scanner: , token on line 38
+Scanner: name token on line 38: m
+Scanner: , token on line 38
+Scanner: name token on line 38: d
+Scanner: ) token on line 38
+Scanner: : token on line 38
+Scanner: NEWLINE token on line 38
+  39:    d_nr = d
+Scanner: INDENT token on line 39
+Scanner: name token on line 39: d_nr
+Scanner: = token on line 39
+Scanner: name token on line 39: d
+Scanner: NEWLINE token on line 39
+  40: 
+  41:    # Tell dagene i årene før angitte dato:
+  42:    for aax in range(1900,aa):
+Scanner: for token on line 42
+Scanner: name token on line 42: aax
+Scanner: in token on line 42
+Scanner: name token on line 42: range
+Scanner: ( token on line 42
+Scanner: integer literal token on line 42: 1900
+Scanner: , token on line 42
+Scanner: name token on line 42: aa
+Scanner: ) token on line 42
+Scanner: : token on line 42
+Scanner: NEWLINE token on line 42
+  43:       d_nr = d_nr + 365;
+Scanner: INDENT token on line 43
+Scanner: name token on line 43: d_nr
+Scanner: = token on line 43
+Scanner: name token on line 43: d_nr
+Scanner: + token on line 43
+Scanner: integer literal token on line 43: 365
+Scanner: ; token on line 43
+Scanner: NEWLINE token on line 43
+  44:       if er_skuddaar(aax): d_nr = d_nr + 1
+Scanner: if token on line 44
+Scanner: name token on line 44: er_skuddaar
+Scanner: ( token on line 44
+Scanner: name token on line 44: aax
+Scanner: ) token on line 44
+Scanner: : token on line 44
+Scanner: name token on line 44: d_nr
+Scanner: = token on line 44
+Scanner: name token on line 44: d_nr
+Scanner: + token on line 44
+Scanner: integer literal token on line 44: 1
+Scanner: NEWLINE token on line 44
+  45: 
+  46:    # Tell dagene i månedene før:
+  47:    for mx in range(1,m):
+Scanner: DEDENT token on line 47
+Scanner: for token on line 47
+Scanner: name token on line 47: mx
+Scanner: in token on line 47
+Scanner: name token on line 47: range
+Scanner: ( token on line 47
+Scanner: integer literal token on line 47: 1
+Scanner: , token on line 47
+Scanner: name token on line 47: m
+Scanner: ) token on line 47
+Scanner: : token on line 47
+Scanner: NEWLINE token on line 47
+  48:       d_nr = d_nr + finn_m_leng(mx,aa)
+Scanner: INDENT token on line 48
+Scanner: name token on line 48: d_nr
+Scanner: = token on line 48
+Scanner: name token on line 48: d_nr
+Scanner: + token on line 48
+Scanner: name token on line 48: finn_m_leng
+Scanner: ( token on line 48
+Scanner: name token on line 48: mx
+Scanner: , token on line 48
+Scanner: name token on line 48: aa
+Scanner: ) token on line 48
+Scanner: NEWLINE token on line 48
+  49: 
+  50:    return d_nr
+Scanner: DEDENT token on line 50
+Scanner: return token on line 50
+Scanner: name token on line 50: d_nr
+Scanner: NEWLINE token on line 50
+  51: 
+  52: # Hovedprogrammet:
+  53: aar = int(input("Oppgi et år: "))
+Scanner: DEDENT token on line 53
+Scanner: name token on line 53: aar
+Scanner: = token on line 53
+Scanner: name token on line 53: int
+Scanner: ( token on line 53
+Scanner: name token on line 53: input
+Scanner: ( token on line 53
+Scanner: string literal token on line 53: "Oppgi et år: "
+Scanner: ) token on line 53
+Scanner: ) token on line 53
+Scanner: NEWLINE token on line 53
+  54: maaned = les_maaned()
+Scanner: name token on line 54: maaned
+Scanner: = token on line 54
+Scanner: name token on line 54: les_maaned
+Scanner: ( token on line 54
+Scanner: ) token on line 54
+Scanner: NEWLINE token on line 54
+  55: dag = int(input("Oppgi en dag: "))
+Scanner: name token on line 55: dag
+Scanner: = token on line 55
+Scanner: name token on line 55: int
+Scanner: ( token on line 55
+Scanner: name token on line 55: input
+Scanner: ( token on line 55
+Scanner: string literal token on line 55: "Oppgi en dag: "
+Scanner: ) token on line 55
+Scanner: ) token on line 55
+Scanner: NEWLINE token on line 55
+  56: u_dag = ukedag[(6+finn_dag_nr(aar,maaned,dag))%7] + "dag"
+Scanner: name token on line 56: u_dag
+Scanner: = token on line 56
+Scanner: name token on line 56: ukedag
+Scanner: [ token on line 56
+Scanner: ( token on line 56
+Scanner: integer literal token on line 56: 6
+Scanner: + token on line 56
+Scanner: name token on line 56: finn_dag_nr
+Scanner: ( token on line 56
+Scanner: name token on line 56: aar
+Scanner: , token on line 56
+Scanner: name token on line 56: maaned
+Scanner: , token on line 56
+Scanner: name token on line 56: dag
+Scanner: ) token on line 56
+Scanner: ) token on line 56
+Scanner: % token on line 56
+Scanner: integer literal token on line 56: 7
+Scanner: ] token on line 56
+Scanner: + token on line 56
+Scanner: string literal token on line 56: "dag"
+Scanner: NEWLINE token on line 56
+  57: print(str(dag)+".", m_navn[maaned], aar, "er en", u_dag)
+Scanner: name token on line 57: print
+Scanner: ( token on line 57
+Scanner: name token on line 57: str
+Scanner: ( token on line 57
+Scanner: name token on line 57: dag
+Scanner: ) token on line 57
+Scanner: + token on line 57
+Scanner: string literal token on line 57: "."
+Scanner: , token on line 57
+Scanner: name token on line 57: m_navn
+Scanner: [ token on line 57
+Scanner: name token on line 57: maaned
+Scanner: ] token on line 57
+Scanner: , token on line 57
+Scanner: name token on line 57: aar
+Scanner: , token on line 57
+Scanner: string literal token on line 57: "er en"
+Scanner: , token on line 57
+Scanner: name token on line 57: u_dag
+Scanner: ) token on line 57
+Scanner: NEWLINE token on line 57
+Scanner: E-o-f token on line 57

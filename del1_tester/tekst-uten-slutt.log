@@ -1,0 +1,15 @@
+   1: # Dette programmet inneholder en tekststreng som ikke avsluttes på
+   2: # samme linje.
+   3: 
+   4: t1 = "Denne er OK"
+Scanner: name token on line 4: t1
+Scanner: = token on line 4
+Scanner: string literal token on line 4: "Denne er OK"
+Scanner: NEWLINE token on line 4
+   5: t2 = 'Denne også'
+Scanner: name token on line 5: t2
+Scanner: = token on line 5
+Scanner: string literal token on line 5: "Denne også"
+Scanner: NEWLINE token on line 5
+   6: t3 = 'Denne starter her
+Asp scanner error on line 6: String literal not terminated!

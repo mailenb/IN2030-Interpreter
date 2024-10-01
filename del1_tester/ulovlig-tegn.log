@@ -1,0 +1,9 @@
+   1: # A $ sign is only allowed in text string literals.
+   2: 
+   3: s = "The price is $2.50"   # OK
+Scanner: name token on line 3: s
+Scanner: = token on line 3
+Scanner: string literal token on line 3: "The price is $2.50"
+Scanner: NEWLINE token on line 3
+   4: a$b = 1234567890           # 'Illegal character'
+Asp scanner error on line 4: Illegal character: '$'!

@@ -1,0 +1,102 @@
+Trace line 3: y = 2021
+Trace line 4: while True: ...
+Trace line 5: a = 7
+Trace line 6: b = 20
+Trace line 7: c = 21
+Trace line 8: d = 5
+Trace line 9: e = 0
+Trace line 10: f = 1
+Trace line 11: g = 6
+Trace line 12: h = 7
+Trace line 13: i = 5
+Trace line 14: k = 1
+Trace line 15: l = 6
+Trace line 16: m = 0
+Trace line 18: month = 4
+Trace line 19: day = 4
+Trace line 20: else: ...
+Trace line 23: Call function str with params [4]
+Trace line 23: Call function print with params ['4. april', 2021]
+Trace line 23: Expression statement produced None
+Trace line 24: y = 2022
+Trace line 4: while True: ...
+Trace line 5: a = 8
+Trace line 6: b = 20
+Trace line 7: c = 22
+Trace line 8: d = 5
+Trace line 9: e = 0
+Trace line 10: f = 1
+Trace line 11: g = 6
+Trace line 12: h = 26
+Trace line 13: i = 5
+Trace line 14: k = 2
+Trace line 15: l = 0
+Trace line 16: m = 0
+Trace line 18: month = 4
+Trace line 19: day = 17
+Trace line 20: else: ...
+Trace line 23: Call function str with params [17]
+Trace line 23: Call function print with params ['17. april', 2022]
+Trace line 23: Expression statement produced None
+Trace line 24: y = 2023
+Trace line 4: while True: ...
+Trace line 5: a = 9
+Trace line 6: b = 20
+Trace line 7: c = 23
+Trace line 8: d = 5
+Trace line 9: e = 0
+Trace line 10: f = 1
+Trace line 11: g = 6
+Trace line 12: h = 15
+Trace line 13: i = 5
+Trace line 14: k = 3
+Trace line 15: l = 3
+Trace line 16: m = 0
+Trace line 18: month = 4
+Trace line 19: day = 9
+Trace line 20: else: ...
+Trace line 23: Call function str with params [9]
+Trace line 23: Call function print with params ['9. april', 2023]
+Trace line 23: Expression statement produced None
+Trace line 24: y = 2024
+Trace line 4: while True: ...
+Trace line 5: a = 10
+Trace line 6: b = 20
+Trace line 7: c = 24
+Trace line 8: d = 5
+Trace line 9: e = 0
+Trace line 10: f = 1
+Trace line 11: g = 6
+Trace line 12: h = 4
+Trace line 13: i = 6
+Trace line 14: k = 0
+Trace line 15: l = 5
+Trace line 16: m = 0
+Trace line 18: month = 3
+Trace line 19: day = 31
+Trace line 20: if True alt #1: ...
+Trace line 21: Call function str with params [31]
+Trace line 21: Call function print with params ['31. mars', 2024]
+Trace line 21: Expression statement produced None
+Trace line 24: y = 2025
+Trace line 4: while True: ...
+Trace line 5: a = 11
+Trace line 6: b = 20
+Trace line 7: c = 25
+Trace line 8: d = 5
+Trace line 9: e = 0
+Trace line 10: f = 1
+Trace line 11: g = 6
+Trace line 12: h = 23
+Trace line 13: i = 6
+Trace line 14: k = 1
+Trace line 15: l = 6
+Trace line 16: m = 0
+Trace line 18: month = 4
+Trace line 19: day = 20
+Trace line 20: else: ...
+Trace line 23: Call function str with params [20]
+Trace line 23: Call function print with params ['20. april', 2025]
+Trace line 23: Expression statement produced None
+Trace line 24: y = 2026
+Trace line 4: while False:

@@ -1,0 +1,29 @@
+   1: # Dette programmet starter med en del rar men lovlig indentering
+   2: # før det til sist viser en ulovlig indentering.
+   3: 
+   4: if True:
+Scanner: if token on line 4
+Scanner: True token on line 4
+Scanner: : token on line 4
+Scanner: NEWLINE token on line 4
+   5:  if False:  # Indentering (kort men helt lovlig)
+Scanner: INDENT token on line 5
+Scanner: if token on line 5
+Scanner: False token on line 5
+Scanner: : token on line 5
+Scanner: NEWLINE token on line 5
+   6:                               if 1: # Kjempeindentering (uleselig men OK)
+Scanner: INDENT token on line 6
+Scanner: if token on line 6
+Scanner: integer literal token on line 6: 1
+Scanner: : token on line 6
+Scanner: NEWLINE token on line 6
+   7:                                   print("Ja")
+Scanner: INDENT token on line 7
+Scanner: name token on line 7: print
+Scanner: ( token on line 7
+Scanner: string literal token on line 7: "Ja"
+Scanner: ) token on line 7
+Scanner: NEWLINE token on line 7
+   8:     a = 4   # Gal indentering (ikke brukt før)
+Asp scanner error on line 8: IndentetionError: Unexpected indent.

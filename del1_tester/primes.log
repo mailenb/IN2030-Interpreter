@@ -1,0 +1,228 @@
+   1: 
+   2: # Finn alle primtall opp til n
+   3: # ved hjelp av teknikken kalt «Eratosthenes' sil».
+   4: 
+   5: n = 1000
+Scanner: name token on line 5: n
+Scanner: = token on line 5
+Scanner: integer literal token on line 5: 1000
+Scanner: NEWLINE token on line 5
+   6: primes = [True] * (n+1)
+Scanner: name token on line 6: primes
+Scanner: = token on line 6
+Scanner: [ token on line 6
+Scanner: True token on line 6
+Scanner: ] token on line 6
+Scanner: * token on line 6
+Scanner: ( token on line 6
+Scanner: name token on line 6: n
+Scanner: + token on line 6
+Scanner: integer literal token on line 6: 1
+Scanner: ) token on line 6
+Scanner: NEWLINE token on line 6
+   7: 
+   8: def find_primes ():
+Scanner: def token on line 8
+Scanner: name token on line 8: find_primes
+Scanner: ( token on line 8
+Scanner: ) token on line 8
+Scanner: : token on line 8
+Scanner: NEWLINE token on line 8
+   9:    for i1 in range(2,n+1):
+Scanner: INDENT token on line 9
+Scanner: for token on line 9
+Scanner: name token on line 9: i1
+Scanner: in token on line 9
+Scanner: name token on line 9: range
+Scanner: ( token on line 9
+Scanner: integer literal token on line 9: 2
+Scanner: , token on line 9
+Scanner: name token on line 9: n
+Scanner: + token on line 9
+Scanner: integer literal token on line 9: 1
+Scanner: ) token on line 9
+Scanner: : token on line 9
+Scanner: NEWLINE token on line 9
+  10:       i2 = i1 * i1
+Scanner: INDENT token on line 10
+Scanner: name token on line 10: i2
+Scanner: = token on line 10
+Scanner: name token on line 10: i1
+Scanner: * token on line 10
+Scanner: name token on line 10: i1
+Scanner: NEWLINE token on line 10
+  11:       while i2 <= n:
+Scanner: while token on line 11
+Scanner: name token on line 11: i2
+Scanner: <= token on line 11
+Scanner: name token on line 11: n
+Scanner: : token on line 11
+Scanner: NEWLINE token on line 11
+  12:          primes[i2] = False
+Scanner: INDENT token on line 12
+Scanner: name token on line 12: primes
+Scanner: [ token on line 12
+Scanner: name token on line 12: i2
+Scanner: ] token on line 12
+Scanner: = token on line 12
+Scanner: False token on line 12
+Scanner: NEWLINE token on line 12
+  13:          i2 = i2 + i1
+Scanner: name token on line 13: i2
+Scanner: = token on line 13
+Scanner: name token on line 13: i2
+Scanner: + token on line 13
+Scanner: name token on line 13: i1
+Scanner: NEWLINE token on line 13
+  14: 
+  15: def format (n, w):
+Scanner: DEDENT token on line 15
+Scanner: DEDENT token on line 15
+Scanner: DEDENT token on line 15
+Scanner: def token on line 15
+Scanner: name token on line 15: format
+Scanner: ( token on line 15
+Scanner: name token on line 15: n
+Scanner: , token on line 15
+Scanner: name token on line 15: w
+Scanner: ) token on line 15
+Scanner: : token on line 15
+Scanner: NEWLINE token on line 15
+  16:    res = str(n)
+Scanner: INDENT token on line 16
+Scanner: name token on line 16: res
+Scanner: = token on line 16
+Scanner: name token on line 16: str
+Scanner: ( token on line 16
+Scanner: name token on line 16: n
+Scanner: ) token on line 16
+Scanner: NEWLINE token on line 16
+  17:    while len(res) < w: res = ' '+res
+Scanner: while token on line 17
+Scanner: name token on line 17: len
+Scanner: ( token on line 17
+Scanner: name token on line 17: res
+Scanner: ) token on line 17
+Scanner: < token on line 17
+Scanner: name token on line 17: w
+Scanner: : token on line 17
+Scanner: name token on line 17: res
+Scanner: = token on line 17
+Scanner: string literal token on line 17: " "
+Scanner: + token on line 17
+Scanner: name token on line 17: res
+Scanner: NEWLINE token on line 17
+  18:    return res
+Scanner: return token on line 18
+Scanner: name token on line 18: res
+Scanner: NEWLINE token on line 18
+  19: 
+  20: def list_primes():
+Scanner: DEDENT token on line 20
+Scanner: def token on line 20
+Scanner: name token on line 20: list_primes
+Scanner: ( token on line 20
+Scanner: ) token on line 20
+Scanner: : token on line 20
+Scanner: NEWLINE token on line 20
+  21:     n_printed = 0
+Scanner: INDENT token on line 21
+Scanner: name token on line 21: n_printed
+Scanner: = token on line 21
+Scanner: integer literal token on line 21: 0
+Scanner: NEWLINE token on line 21
+  22:     line_buf = ''
+Scanner: name token on line 22: line_buf
+Scanner: = token on line 22
+Scanner: string literal token on line 22: ""
+Scanner: NEWLINE token on line 22
+  23:     for i in range(2,n+1):
+Scanner: for token on line 23
+Scanner: name token on line 23: i
+Scanner: in token on line 23
+Scanner: name token on line 23: range
+Scanner: ( token on line 23
+Scanner: integer literal token on line 23: 2
+Scanner: , token on line 23
+Scanner: name token on line 23: n
+Scanner: + token on line 23
+Scanner: integer literal token on line 23: 1
+Scanner: ) token on line 23
+Scanner: : token on line 23
+Scanner: NEWLINE token on line 23
+  24:        if primes[i]:
+Scanner: INDENT token on line 24
+Scanner: if token on line 24
+Scanner: name token on line 24: primes
+Scanner: [ token on line 24
+Scanner: name token on line 24: i
+Scanner: ] token on line 24
+Scanner: : token on line 24
+Scanner: NEWLINE token on line 24
+  25:           if n_printed > 0 and n_printed%10 == 0:
+Scanner: INDENT token on line 25
+Scanner: if token on line 25
+Scanner: name token on line 25: n_printed
+Scanner: > token on line 25
+Scanner: integer literal token on line 25: 0
+Scanner: and token on line 25
+Scanner: name token on line 25: n_printed
+Scanner: % token on line 25
+Scanner: integer literal token on line 25: 10
+Scanner: == token on line 25
+Scanner: integer literal token on line 25: 0
+Scanner: : token on line 25
+Scanner: NEWLINE token on line 25
+  26:              print(line_buf)
+Scanner: INDENT token on line 26
+Scanner: name token on line 26: print
+Scanner: ( token on line 26
+Scanner: name token on line 26: line_buf
+Scanner: ) token on line 26
+Scanner: NEWLINE token on line 26
+  27:              line_buf = ''
+Scanner: name token on line 27: line_buf
+Scanner: = token on line 27
+Scanner: string literal token on line 27: ""
+Scanner: NEWLINE token on line 27
+  28:           line_buf = line_buf + format(i,4)
+Scanner: DEDENT token on line 28
+Scanner: name token on line 28: line_buf
+Scanner: = token on line 28
+Scanner: name token on line 28: line_buf
+Scanner: + token on line 28
+Scanner: name token on line 28: format
+Scanner: ( token on line 28
+Scanner: name token on line 28: i
+Scanner: , token on line 28
+Scanner: integer literal token on line 28: 4
+Scanner: ) token on line 28
+Scanner: NEWLINE token on line 28
+  29:           n_printed = n_printed + 1
+Scanner: name token on line 29: n_printed
+Scanner: = token on line 29
+Scanner: name token on line 29: n_printed
+Scanner: + token on line 29
+Scanner: integer literal token on line 29: 1
+Scanner: NEWLINE token on line 29
+  30:     print(line_buf)
+Scanner: DEDENT token on line 30
+Scanner: DEDENT token on line 30
+Scanner: name token on line 30: print
+Scanner: ( token on line 30
+Scanner: name token on line 30: line_buf
+Scanner: ) token on line 30
+Scanner: NEWLINE token on line 30
+  31: 
+  32: find_primes()
+Scanner: DEDENT token on line 32
+Scanner: name token on line 32: find_primes
+Scanner: ( token on line 32
+Scanner: ) token on line 32
+Scanner: NEWLINE token on line 32
+  33: list_primes()
+Scanner: name token on line 33: list_primes
+Scanner: ( token on line 33
+Scanner: ) token on line 33
+Scanner: NEWLINE token on line 33
+Scanner: E-o-f token on line 33

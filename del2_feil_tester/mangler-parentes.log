@@ -1,0 +1,230 @@
+<program>
+   1: # I dette uttrykket mangler en høyreparentes:
+   2: 
+   3: v = ((((((((((1+2+3+4)))))))))
+  <stmt>
+    <small stmt list>
+      <small stmt>
+        <assignment>
+          <name>
+          </name>
+          <expr>
+            <and test>
+              <not test>
+                <comparison>
+                  <term>
+                    <factor>
+                      <primary>
+                        <atom>
+                          <inner expr>
+                            <expr>
+                              <and test>
+                                <not test>
+                                  <comparison>
+                                    <term>
+                                      <factor>
+                                        <primary>
+                                          <atom>
+                                            <inner expr>
+                                              <expr>
+                                                <and test>
+                                                  <not test>
+                                                    <comparison>
+                                                      <term>
+                                                        <factor>
+                                                          <primary>
+                                                            <atom>
+                                                              <inner expr>
+                                                                <expr>
+                                                                  <and test>
+                                                                    <not test>
+                                                                      <comparison>
+                                                                        <term>
+                                                                          <factor>
+                                                                            <primary>
+                                                                              <atom>
+                                                                                <inner expr>
+                                                                                  <expr>
+                                                                                    <and test>
+                                                                                      <not test>
+                                                                                        <comparison>
+                                                                                          <term>
+                                                                                            <factor>
+                                                                                              <primary>
+                                                                                                <atom>
+                                                                                                  <inner expr>
+                                                                                                    <expr>
+                                                                                                      <and test>
+                                                                                                        <not test>
+                                                                                                          <comparison>
+                                                                                                            <term>
+                                                                                                              <factor>
+                                                                                                                <primary>
+                                                                                                                  <atom>
+                                                                                                                    <inner expr>
+                                                                                                                      <expr>
+                                                                                                                        <and test>
+                                                                                                                          <not test>
+                                                                                                                            <comparison>
+                                                                                                                              <term>
+                                                                                                                                <factor>
+                                                                                                                                  <primary>
+                                                                                                                                    <atom>
+                                                                                                                                      <inner expr>
+                                                                                                                                        <expr>
+                                                                                                                                          <and test>
+                                                                                                                                            <not test>
+                                                                                                                                              <comparison>
+                                                                                                                                                <term>
+                                                                                                                                                  <factor>
+                                                                                                                                                    <primary>
+                                                                                                                                                      <atom>
+                                                                                                                                                        <inner expr>
+                                                                                                                                                          <expr>
+                                                                                                                                                            <and test>
+                                                                                                                                                              <not test>
+                                                                                                                                                                <comparison>
+                                                                                                                                                                  <term>
+                                                                                                                                                                    <factor>
+                                                                                                                                                                      <primary>
+                                                                                                                                                                        <atom>
+                                                                                                                                                                          <inner expr>
+                                                                                                                                                                            <expr>
+                                                                                                                                                                              <and test>
+                                                                                                                                                                                <not test>
+                                                                                                                                                                                  <comparison>
+                                                                                                                                                                                    <term>
+                                                                                                                                                                                      <factor>
+                                                                                                                                                                                        <primary>
+                                                                                                                                                                                          <atom>
+                                                                                                                                                                                            <inner expr>
+                                                                                                                                                                                              <expr>
+                                                                                                                                                                                                <and test>
+                                                                                                                                                                                                  <not test>
+                                                                                                                                                                                                    <comparison>
+                                                                                                                                                                                                      <term>
+                                                                                                                                                                                                        <factor>
+                                                                                                                                                                                                          <primary>
+                                                                                                                                                                                                            <atom>
+                                                                                                                                                                                                              <integer literal>
+                                                                                                                                                                                                              </integer literal>
+                                                                                                                                                                                                            </atom>
+                                                                                                                                                                                                          </primary>
+                                                                                                                                                                                                        </factor>
+                                                                                                                                                                                                        <term opr>
+                                                                                                                                                                                                        </term opr>
+                                                                                                                                                                                                        <factor>
+                                                                                                                                                                                                          <primary>
+                                                                                                                                                                                                            <atom>
+                                                                                                                                                                                                              <integer literal>
+                                                                                                                                                                                                              </integer literal>
+                                                                                                                                                                                                            </atom>
+                                                                                                                                                                                                          </primary>
+                                                                                                                                                                                                        </factor>
+                                                                                                                                                                                                        <term opr>
+                                                                                                                                                                                                        </term opr>
+                                                                                                                                                                                                        <factor>
+                                                                                                                                                                                                          <primary>
+                                                                                                                                                                                                            <atom>
+                                                                                                                                                                                                              <integer literal>
+                                                                                                                                                                                                              </integer literal>
+                                                                                                                                                                                                            </atom>
+                                                                                                                                                                                                          </primary>
+                                                                                                                                                                                                        </factor>
+                                                                                                                                                                                                        <term opr>
+                                                                                                                                                                                                        </term opr>
+                                                                                                                                                                                                        <factor>
+                                                                                                                                                                                                          <primary>
+                                                                                                                                                                                                            <atom>
+                                                                                                                                                                                                              <integer literal>
+                                                                                                                                                                                                              </integer literal>
+                                                                                                                                                                                                            </atom>
+                                                                                                                                                                                                          </primary>
+                                                                                                                                                                                                        </factor>
+                                                                                                                                                                                                      </term>
+                                                                                                                                                                                                    </comparison>
+                                                                                                                                                                                                  </not test>
+                                                                                                                                                                                                </and test>
+                                                                                                                                                                                              </expr>
+                                                                                                                                                                                            </inner expr>
+                                                                                                                                                                                          </atom>
+                                                                                                                                                                                        </primary>
+                                                                                                                                                                                      </factor>
+                                                                                                                                                                                    </term>
+                                                                                                                                                                                  </comparison>
+                                                                                                                                                                                </not test>
+                                                                                                                                                                              </and test>
+                                                                                                                                                                            </expr>
+                                                                                                                                                                          </inner expr>
+                                                                                                                                                                        </atom>
+                                                                                                                                                                      </primary>
+                                                                                                                                                                    </factor>
+                                                                                                                                                                  </term>
+                                                                                                                                                                </comparison>
+                                                                                                                                                              </not test>
+                                                                                                                                                            </and test>
+                                                                                                                                                          </expr>
+                                                                                                                                                        </inner expr>
+                                                                                                                                                      </atom>
+                                                                                                                                                    </primary>
+                                                                                                                                                  </factor>
+                                                                                                                                                </term>
+                                                                                                                                              </comparison>
+                                                                                                                                            </not test>
+                                                                                                                                          </and test>
+                                                                                                                                        </expr>
+                                                                                                                                      </inner expr>
+                                                                                                                                    </atom>
+                                                                                                                                  </primary>
+                                                                                                                                </factor>
+                                                                                                                              </term>
+                                                                                                                            </comparison>
+                                                                                                                          </not test>
+                                                                                                                        </and test>
+                                                                                                                      </expr>
+                                                                                                                    </inner expr>
+                                                                                                                  </atom>
+                                                                                                                </primary>
+                                                                                                              </factor>
+                                                                                                            </term>
+                                                                                                          </comparison>
+                                                                                                        </not test>
+                                                                                                      </and test>
+                                                                                                    </expr>
+                                                                                                  </inner expr>
+                                                                                                </atom>
+                                                                                              </primary>
+                                                                                            </factor>
+                                                                                          </term>
+                                                                                        </comparison>
+                                                                                      </not test>
+                                                                                    </and test>
+                                                                                  </expr>
+                                                                                </inner expr>
+                                                                              </atom>
+                                                                            </primary>
+                                                                          </factor>
+                                                                        </term>
+                                                                      </comparison>
+                                                                    </not test>
+                                                                  </and test>
+                                                                </expr>
+                                                              </inner expr>
+                                                            </atom>
+                                                          </primary>
+                                                        </factor>
+                                                      </term>
+                                                    </comparison>
+                                                  </not test>
+                                                </and test>
+                                              </expr>
+                                            </inner expr>
+                                          </atom>
+                                        </primary>
+                                      </factor>
+                                    </term>
+                                  </comparison>
+                                </not test>
+                              </and test>
+                            </expr>
+Asp parser error on line 3: Expected ) but found NEWLINE!

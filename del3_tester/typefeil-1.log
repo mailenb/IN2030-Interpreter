@@ -1,0 +1,6 @@
+1 + 2 ==>
+Trace line 2: 3
+'abc' + 'xyz' ==>
+Trace line 5: 'abcxyz'
+1 + 'xyz' ==>
+Asp runtime error on line 8: Type error for +

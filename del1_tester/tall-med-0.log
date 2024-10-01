@@ -1,0 +1,18 @@
+   1: # I Asp får tall ikke lov å starte med sifferet 0, men
+   2: # selve tallet 0 er selvfølgelig et unntak.
+   3: 
+   4: a = 0   # Dette er helt OK.
+Scanner: name token on line 4: a
+Scanner: = token on line 4
+Scanner: integer literal token on line 4: 0
+Scanner: NEWLINE token on line 4
+   5: a = 04  # Men dette to tall: 0 og 4!
+Scanner: name token on line 5: a
+Scanner: = token on line 5
+Scanner: integer literal token on line 5: 0
+Scanner: integer literal token on line 5: 4
+Scanner: NEWLINE token on line 5
+   6:     	# Slikt er OK for skanneren,
+   7: 	# men parseren (del 2) vil gi
+   8: 	# en feilmelding.
+Scanner: E-o-f token on line 8

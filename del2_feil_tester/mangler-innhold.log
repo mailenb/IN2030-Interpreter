@@ -1,0 +1,13 @@
+<program>
+   1: # Dette programmet definerer en funksjon uten noe innhold; det er ikke lov.
+   2: 
+   3: def f():
+  <stmt>
+    <compound stmt>
+      <func def>
+        <name>
+        </name>
+        <suite>
+   4: 
+   5: def g():
+Asp parser error on line 5: Expected INDENT but found def!

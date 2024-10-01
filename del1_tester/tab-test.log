@@ -1,0 +1,45 @@
+   1: if True:
+Scanner: if token on line 1
+Scanner: True token on line 1
+Scanner: : token on line 1
+Scanner: NEWLINE token on line 1
+   2:     a = 1
+Scanner: INDENT token on line 2
+Scanner: name token on line 2: a
+Scanner: = token on line 2
+Scanner: integer literal token on line 2: 1
+Scanner: NEWLINE token on line 2
+   3: 	b = 2
+Scanner: name token on line 3: b
+Scanner: = token on line 3
+Scanner: integer literal token on line 3: 2
+Scanner: NEWLINE token on line 3
+   4:   	c = 3
+Scanner: name token on line 4: c
+Scanner: = token on line 4
+Scanner: integer literal token on line 4: 3
+Scanner: NEWLINE token on line 4
+   5: 	if False:
+Scanner: if token on line 5
+Scanner: False token on line 5
+Scanner: : token on line 5
+Scanner: NEWLINE token on line 5
+   6: 	 x = 24
+Scanner: INDENT token on line 6
+Scanner: name token on line 6: x
+Scanner: = token on line 6
+Scanner: integer literal token on line 6: 24
+Scanner: NEWLINE token on line 6
+   7:   	 y = 25
+Scanner: name token on line 7: y
+Scanner: = token on line 7
+Scanner: integer literal token on line 7: 25
+Scanner: NEWLINE token on line 7
+   8:      z = 26
+Scanner: name token on line 8: z
+Scanner: = token on line 8
+Scanner: integer literal token on line 8: 26
+Scanner: NEWLINE token on line 8
+Scanner: DEDENT token on line 8
+Scanner: DEDENT token on line 8
+Scanner: E-o-f token on line 8

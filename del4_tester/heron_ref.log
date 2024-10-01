@@ -1,0 +1,52 @@
+Trace line 5: def pow
+Trace line 14: def rough_log
+Trace line 22: def sqrt
+Trace line 38: Call function input with params ['Give a number: ']
+Trace line 38: Call function float with params ['5']
+Trace line 38: v = 5.0
+Trace line 39: Call function sqrt with params [5.0]
+Trace line 23: x = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Trace line 25: Call function rough_log with params [5.0]
+Trace line 19: return 1
+Trace line 25: d = 1
+Trace line 26: if True alt #1: ...
+Trace line 27: Call function pow with params [20, 0]
+Trace line 6: if True alt #2: ...
+Trace line 9: Call function pow with params [20, 1]
+Trace line 6: else: ...
+Trace line 11: return 20
+Trace line 9: return 1.0
+Trace line 27: x[0] = 1.0
+Trace line 31: Call function range with params [0, 11]
+Trace line 31: for #1: ix = 0
+Trace line 32: x[1] = 3.0
+Trace line 31: for #2: ix = 1
+Trace line 32: x[2] = 2.3333333333333335
+Trace line 31: for #3: ix = 2
+Trace line 32: x[3] = 2.238095238095238
+Trace line 31: for #4: ix = 3
+Trace line 32: x[4] = 2.2360688956433634
+Trace line 31: for #5: ix = 4
+Trace line 32: x[5] = 2.236067977499978
+Trace line 31: for #6: ix = 5
+Trace line 32: x[6] = 2.23606797749979
+Trace line 31: for #7: ix = 6
+Trace line 32: x[7] = 2.23606797749979
+Trace line 31: for #8: ix = 7
+Trace line 32: x[8] = 2.23606797749979
+Trace line 31: for #9: ix = 8
+Trace line 32: x[9] = 2.23606797749979
+Trace line 31: for #10: ix = 9
+Trace line 32: x[10] = 2.23606797749979
+Trace line 31: for #11: ix = 10
+Trace line 32: x[11] = 2.23606797749979
+Trace line 34: return 2.23606797749979
+Trace line 39: sq2 = 2.23606797749979
+Trace line 40: Call function pow with params [2.23606797749979, 2]
+Trace line 6: if True alt #1: ...
+Trace line 7: Call function pow with params [2.23606797749979, 1]
+Trace line 6: else: ...
+Trace line 11: return 2.23606797749979
+Trace line 7: return 5.000000000000001
+Trace line 40: Call function print with params [2.23606797749979, 'squared is', 5.000000000000001]
+Trace line 40: Expression statement produced None

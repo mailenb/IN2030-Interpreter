@@ -1,0 +1,111 @@
+Trace line 4: def boblesorter
+Trace line 15: data = [3, 17, -3, 0, 3, 1, 12]
+Trace line 16: ombyttinger = 0
+Trace line 17: Call function boblesorter with params [[3, 17, -3, 0, 3, 1, 12]]
+Trace line 6: while True: ...
+Trace line 7: endret = False
+Trace line 8: Call function len with params [[3, 17, -3, 0, 3, 1, 12]]
+Trace line 8: Expression statement produced 7
+Trace line 8: Call function range with params [1, 7]
+Trace line 8: Expression statement produced [1, 2, 3, 4, 5, 6]
+Trace line 8: for #1: i = 1
+Trace line 8: for #2: i = 2
+Trace line 9: if True alt #1: ...
+Trace line 10: t = 17
+Trace line 10: a[1] = -3
+Trace line 10: a[2] = 17
+Trace line 11: ombyttinger = 1
+Trace line 12: endret = True
+Trace line 8: for #3: i = 3
+Trace line 9: if True alt #1: ...
+Trace line 10: t = 17
+Trace line 10: a[2] = 0
+Trace line 10: a[3] = 17
+Trace line 11: ombyttinger = 2
+Trace line 12: endret = True
+Trace line 8: for #4: i = 4
+Trace line 9: if True alt #1: ...
+Trace line 10: t = 17
+Trace line 10: a[3] = 3
+Trace line 10: a[4] = 17
+Trace line 11: ombyttinger = 3
+Trace line 12: endret = True
+Trace line 8: for #5: i = 5
+Trace line 9: if True alt #1: ...
+Trace line 10: t = 17
+Trace line 10: a[4] = 1
+Trace line 10: a[5] = 17
+Trace line 11: ombyttinger = 4
+Trace line 12: endret = True
+Trace line 8: for #6: i = 6
+Trace line 9: if True alt #1: ...
+Trace line 10: t = 17
+Trace line 10: a[5] = 12
+Trace line 10: a[6] = 17
+Trace line 11: ombyttinger = 5
+Trace line 12: endret = True
+Trace line 6: while True: ...
+Trace line 7: endret = False
+Trace line 8: Call function len with params [[3, -3, 0, 3, 1, 12, 17]]
+Trace line 8: Expression statement produced 7
+Trace line 8: Call function range with params [1, 7]
+Trace line 8: Expression statement produced [1, 2, 3, 4, 5, 6]
+Trace line 8: for #1: i = 1
+Trace line 9: if True alt #1: ...
+Trace line 10: t = 3
+Trace line 10: a[0] = -3
+Trace line 10: a[1] = 3
+Trace line 11: ombyttinger = 6
+Trace line 12: endret = True
+Trace line 8: for #2: i = 2
+Trace line 9: if True alt #1: ...
+Trace line 10: t = 3
+Trace line 10: a[1] = 0
+Trace line 10: a[2] = 3
+Trace line 11: ombyttinger = 7
+Trace line 12: endret = True
+Trace line 8: for #3: i = 3
+Trace line 8: for #4: i = 4
+Trace line 9: if True alt #1: ...
+Trace line 10: t = 3
+Trace line 10: a[3] = 1
+Trace line 10: a[4] = 3
+Trace line 11: ombyttinger = 8
+Trace line 12: endret = True
+Trace line 8: for #5: i = 5
+Trace line 8: for #6: i = 6
+Trace line 6: while True: ...
+Trace line 7: endret = False
+Trace line 8: Call function len with params [[-3, 0, 3, 1, 3, 12, 17]]
+Trace line 8: Expression statement produced 7
+Trace line 8: Call function range with params [1, 7]
+Trace line 8: Expression statement produced [1, 2, 3, 4, 5, 6]
+Trace line 8: for #1: i = 1
+Trace line 8: for #2: i = 2
+Trace line 8: for #3: i = 3
+Trace line 9: if True alt #1: ...
+Trace line 10: t = 3
+Trace line 10: a[2] = 1
+Trace line 10: a[3] = 3
+Trace line 11: ombyttinger = 9
+Trace line 12: endret = True
+Trace line 8: for #4: i = 4
+Trace line 8: for #5: i = 5
+Trace line 8: for #6: i = 6
+Trace line 6: while True: ...
+Trace line 7: endret = False
+Trace line 8: Call function len with params [[-3, 0, 1, 3, 3, 12, 17]]
+Trace line 8: Expression statement produced 7
+Trace line 8: Call function range with params [1, 7]
+Trace line 8: Expression statement produced [1, 2, 3, 4, 5, 6]
+Trace line 8: for #1: i = 1
+Trace line 8: for #2: i = 2
+Trace line 8: for #3: i = 3
+Trace line 8: for #4: i = 4
+Trace line 8: for #5: i = 5
+Trace line 8: for #6: i = 6
+Trace line 13: if True alt #1: ...
+Trace line 13: return 0
+Trace line 17: Expression statement produced 0
+Trace line 18: Call function print with params ['Resultatet etter', 9, 'ombyttinger er', [-3, 0, 1, 3, 3, 12, 17]]
+Trace line 18: Expression statement produced None

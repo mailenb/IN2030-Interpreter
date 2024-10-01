@@ -1,0 +1,2 @@
+{'Menn' : 45, 'Kvinner' : 46}['Barn'] ==>
+Asp runtime error on line 3: Dictionary key 'Barn' undefined!

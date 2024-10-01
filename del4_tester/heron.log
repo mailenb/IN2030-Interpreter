@@ -1,0 +1,61 @@
+Trace line 5: def pow
+Trace line 14: def rough_log
+Trace line 22: def sqrt
+Trace line 38: Call function input with params ['Give a number: ']
+Trace line 38: Expression statement produced '10'
+Trace line 38: Call function float with params ['10']
+Trace line 38: Expression statement produced 10.0
+Trace line 38: v = 10.0
+Trace line 39: Call function sqrt with params [10.0]
+Trace line 23: x = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Trace line 25: Call function rough_log with params [10.0]
+Trace line 19: return 1
+Trace line 25: Expression statement produced 1
+Trace line 25: d = 1
+Trace line 26: if True alt #1: ...
+Trace line 27: Call function pow with params [20, 0]
+Trace line 6: if True alt #2: ...
+Trace line 9: Call function pow with params [20, 1]
+Trace line 6: else: ...
+Trace line 11: return 20
+Trace line 9: Expression statement produced 20
+Trace line 9: return 1.0
+Trace line 27: Expression statement produced 1.0
+Trace line 27: x[0] = 1.0
+Trace line 31: Call function range with params [0, 11]
+Trace line 31: Expression statement produced [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Trace line 31: for #1: ix = 0
+Trace line 32: x[1] = 5.5
+Trace line 31: for #2: ix = 1
+Trace line 32: x[2] = 3.659090909090909
+Trace line 31: for #3: ix = 2
+Trace line 32: x[3] = 3.196005081874647
+Trace line 31: for #4: ix = 3
+Trace line 32: x[4] = 3.16245562280389
+Trace line 31: for #5: ix = 4
+Trace line 32: x[5] = 3.162277665175675
+Trace line 31: for #6: ix = 5
+Trace line 32: x[6] = 3.162277660168379
+Trace line 31: for #7: ix = 6
+Trace line 32: x[7] = 3.162277660168379
+Trace line 31: for #8: ix = 7
+Trace line 32: x[8] = 3.162277660168379
+Trace line 31: for #9: ix = 8
+Trace line 32: x[9] = 3.162277660168379
+Trace line 31: for #10: ix = 9
+Trace line 32: x[10] = 3.162277660168379
+Trace line 31: for #11: ix = 10
+Trace line 32: x[11] = 3.162277660168379
+Trace line 34: return 3.162277660168379
+Trace line 39: Expression statement produced 3.162277660168379
+Trace line 39: sq2 = 3.162277660168379
+Trace line 40: Call function pow with params [3.162277660168379, 2]
+Trace line 6: if True alt #1: ...
+Trace line 7: Call function pow with params [3.162277660168379, 1]
+Trace line 6: else: ...
+Trace line 11: return 3.162277660168379
+Trace line 7: Expression statement produced 3.162277660168379
+Trace line 7: return 9.999999999999998
+Trace line 40: Expression statement produced 9.999999999999998
+Trace line 40: Call function print with params [3.162277660168379, 'squared is', 9.999999999999998]
+Trace line 40: Expression statement produced None

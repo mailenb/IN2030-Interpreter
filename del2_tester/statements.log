@@ -1,0 +1,143 @@
+<program>
+   1: # Diverse setninger:
+   2: 
+   3: pass
+  <stmt>
+    <small stmt list>
+      <small stmt>
+        <pass stmt>
+        </pass stmt>
+      </small stmt>
+    </small stmt list>
+  </stmt>
+   4: return 3
+  <stmt>
+    <small stmt list>
+      <small stmt>
+        <return stmt>
+          <expr>
+            <and test>
+              <not test>
+                <comparison>
+                  <term>
+                    <factor>
+                      <primary>
+                        <atom>
+                          <integer literal>
+                          </integer literal>
+                        </atom>
+                      </primary>
+                    </factor>
+                  </term>
+                </comparison>
+              </not test>
+            </and test>
+          </expr>
+        </return stmt>
+      </small stmt>
+    </small stmt list>
+  </stmt>
+   5: global a
+  <stmt>
+    <small stmt list>
+      <small stmt>
+        <AspGlobalStmt>
+          <name>
+          </name>
+        </AspGlobalStmt>
+      </small stmt>
+    </small stmt list>
+  </stmt>
+   6: a = 99
+  <stmt>
+    <small stmt list>
+      <small stmt>
+        <assignment>
+          <name>
+          </name>
+          <expr>
+            <and test>
+              <not test>
+                <comparison>
+                  <term>
+                    <factor>
+                      <primary>
+                        <atom>
+                          <integer literal>
+                          </integer literal>
+                        </atom>
+                      </primary>
+                    </factor>
+                  </term>
+                </comparison>
+              </not test>
+            </and test>
+          </expr>
+        </assignment>
+      </small stmt>
+    </small stmt list>
+  </stmt>
+   7: a  # Et <expr stmt>
+  <stmt>
+    <small stmt list>
+      <small stmt>
+        <expr stmt>
+          <expr>
+            <and test>
+              <not test>
+                <comparison>
+                  <term>
+                    <factor>
+                      <primary>
+                        <atom>
+                          <name>
+                          </name>
+                        </atom>
+                      </primary>
+                    </factor>
+                  </term>
+                </comparison>
+              </not test>
+            </and test>
+          </expr>
+        </expr stmt>
+      </small stmt>
+    </small stmt list>
+  </stmt>
+   8: -a # Også et <expr stmt>
+  <stmt>
+    <small stmt list>
+      <small stmt>
+        <expr stmt>
+          <expr>
+            <and test>
+              <not test>
+                <comparison>
+                  <term>
+                    <factor>
+                      <factor prefix>
+                      </factor prefix>
+                      <primary>
+                        <atom>
+                          <name>
+                          </name>
+                        </atom>
+                      </primary>
+                    </factor>
+                  </term>
+                </comparison>
+              </not test>
+            </and test>
+          </expr>
+        </expr stmt>
+      </small stmt>
+    </small stmt list>
+  </stmt>
+</program>
+
+pass
+return 3
+global a
+a = 99
+a
+-a

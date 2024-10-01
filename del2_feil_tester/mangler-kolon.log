@@ -1,0 +1,120 @@
+<program>
+   1: # Dette programmet mangler kolonet i else-grenen av en if-setning.
+   2: 
+   3: if 1+2+3+4 == 10:
+  <stmt>
+    <compound stmt>
+      <if stmt>
+        <expr>
+          <and test>
+            <not test>
+              <comparison>
+                <term>
+                  <factor>
+                    <primary>
+                      <atom>
+                        <integer literal>
+                        </integer literal>
+                      </atom>
+                    </primary>
+                  </factor>
+                  <term opr>
+                  </term opr>
+                  <factor>
+                    <primary>
+                      <atom>
+                        <integer literal>
+                        </integer literal>
+                      </atom>
+                    </primary>
+                  </factor>
+                  <term opr>
+                  </term opr>
+                  <factor>
+                    <primary>
+                      <atom>
+                        <integer literal>
+                        </integer literal>
+                      </atom>
+                    </primary>
+                  </factor>
+                  <term opr>
+                  </term opr>
+                  <factor>
+                    <primary>
+                      <atom>
+                        <integer literal>
+                        </integer literal>
+                      </atom>
+                    </primary>
+                  </factor>
+                </term>
+                <comp opr>
+                </comp opr>
+                <term>
+                  <factor>
+                    <primary>
+                      <atom>
+                        <integer literal>
+                        </integer literal>
+                      </atom>
+                    </primary>
+                  </factor>
+                </term>
+              </comparison>
+            </not test>
+          </and test>
+        </expr>
+        <suite>
+   4:     print("Ja")
+          <stmt>
+            <small stmt list>
+              <small stmt>
+                <expr stmt>
+                  <expr>
+                    <and test>
+                      <not test>
+                        <comparison>
+                          <term>
+                            <factor>
+                              <primary>
+                                <atom>
+                                  <name>
+                                  </name>
+                                </atom>
+                                <primary suffix>
+                                  <arguments>
+                                    <expr>
+                                      <and test>
+                                        <not test>
+                                          <comparison>
+                                            <term>
+                                              <factor>
+                                                <primary>
+                                                  <atom>
+                                                    <string literal>
+                                                    </string literal>
+                                                  </atom>
+                                                </primary>
+                                              </factor>
+                                            </term>
+                                          </comparison>
+                                        </not test>
+                                      </and test>
+                                    </expr>
+                                  </arguments>
+                                </primary suffix>
+                              </primary>
+                            </factor>
+                          </term>
+                        </comparison>
+                      </not test>
+                    </and test>
+                  </expr>
+                </expr stmt>
+              </small stmt>
+            </small stmt list>
+          </stmt>
+   5: else
+        </suite>
+Asp parser error on line 5: Expected : but found NEWLINE!
